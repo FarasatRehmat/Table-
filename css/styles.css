@@ -1,0 +1,28 @@
+#table1{
+	background: radial-gradient(lightblue,darkblue,black);
+	height: 450px;
+}
+.bg1{
+	background-color: rgba(0,0,0,0.4);
+	transform: skew(20deg);
+}
+.bg2{
+	background-color: rgba(0,0,0,0.2);
+	transform: skew(-20deg);
+}
+.bg3{
+	background-color: rgba(0,0,0,0.2);
+	transform: skew(20deg);
+}
+.bg1:hover{
+	background-color: rgba(255,255,255,0.4);
+}
+.bg2:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+.bg1 div,.bg3 div{
+	transform: skew(-20deg);	
+}
+.bg2 div{
+	transform: skew(20deg);
+}
